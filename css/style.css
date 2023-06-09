@@ -690,6 +690,49 @@ html {
   text-align: center;
 }
 
+@media screen and (min-width:900px) {
+  #header-carousel .carousel-1{
+    height: 550px;
+  }
+
+  #header-carousel .carousel-2{
+    height: 550px;
+  }
+
+  #header-carousel .carousel-3{
+    height: 550px;
+  }
+}
+
+@media (min-width:600px) and  (max-width:899px) {
+  #header-carousel .carousel-1{
+    height: 420px;
+  }
+
+  #header-carousel .carousel-2{
+    height: 420px;
+  }
+  
+  #header-carousel .carousel-3{
+    height: 420px;
+  }
+}
+
+@media (max-width:599px) {
+  #header-carousel .carousel-1{
+    height: 350px;
+  }
+
+  #header-carousel .carousel-2{
+    height: 350px;
+  }
+  
+  #header-carousel .carousel-3{
+    height: 350px;
+  }
+}
+
+
 #features-carousel i {
   text-align: center;
   font-size: 50px;
