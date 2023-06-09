@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Storage-as-a-Service : Unitellas International Limited | Cloud Services</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="site description"
+        content="At Unitellas we empower african teleco's and cloud service providers by providing on-premise compute, network and storage as a service while supporting SME's and large Enterprises to eliminate infrastructure & financial risks with our various service models.">
+    <meta name="keywords"
+        content="cloud, Unitellas, Unitellas International Limited, Cloud services, compute, networking, storage as a service.">
+
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/4a5b559cd3.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link href="img/unitellasicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid px-5 d-none d-lg-block">
+        <div class="row gx-5">
+            <div class="col-lg-4 text-center py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Our Office</h6>
+                        <span>HQ: First Floor, The Landmark, KM24 Lekki-Epe Expressway, VGC, Lagos, Nigeria</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center border-start border-end py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Email Us</h6>
+                        <a href=mailto:"info@unitellas.com.ng">
+                            <span>info@unitellas.com.ng</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Call Us</h6>
+                        <span><a href="tel: +2348025050468">+234 802 505 0468</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+   <!-- Navbar Start -->
+   <div class="container-fluid sticky-top bg-light shadow-sm px-2 pe-lg-0"
+   style="background-color: rgb(170, 170, 170);">
+   <nav class="navbar navbar-expand-lg bg-light navbar-dark py-3 py-lg-0"
+       style="background-color: rgb(170, 170, 170);">
+       <a href="index.html" class="navbar-brand">
+           <div class="logo">
+               <a href="index.html"><img src="img/unitellas.png" alt="Unitellas logo" width="240px"
+                       height="100px"></a>
+           </div>
+       </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="index.html#services" class="nav-item nav-link">Services</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">RESOURCES</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="index.html#clients" class="dropdown-item">Our Clients</a>
+                            <a href="index.html#partners" class="dropdown-item">Our Partners</a>
+                            <a href="about.html#team" class="dropdown-item">The Team</a>
+                            <a href="faq.html" class="dropdown-item">FAQs</a>
+                            <a href="blog.html" class="dropdown-item">Our Blog</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a class="nav-item nav-link bg-primary text-white px-5 ms-3 d-lg-block" style="cursor: pointer;" onclick="openPopup()">Get A Quote<i
+                            class="bi bi-arrow-right"></i>
+                    </a>
+
+                    <div id="overlay">
+                        <div class="popup" id="popup">
+
+                            <div class="popup-header">
+                                <h5 class="title">What service would you like a quote for:</h5>
+                                <h5 class="close" onclick="closePopup()">&times;</h5>
+                            </div>
+
+                            <a href="computeform.html"><button>Compute Service</button></a><br>
+                            <a  href="storageform.html"><button>Storage Service</button></a><br>
+                            <a href="backupform.html"><button>Backup Service</button></a><br>
+                            <a href="drform.html"><button>Disaster Recovery Service</button></a><br>
+                        <div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header">
+        <h1 class="display-3 text-white mb-3">Storage as a Service</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a href="">Home</a></h6>
+            <h6 class="text-white m-0 px-3">/</h6>
+            <h6 class="text-uppercase text-white m-0">STaaS</h6>
+        </div>
+    </div>
+    <!-- Page Header Start -->
+
+    <!-- STaaS  start -->
+
+    <div class="container-fluid py-6 px-5">
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <h4 class="display-7 mb-4">What Is Unitellas Storage as a Service (STaaS)?</h4>
+                <p>Unitellas Storage as a Service or STaaS is cloud storage that you rent from a Cloud Service Provider (CSP)
+                    and that provides basic ways to access that storage. Enterprises, small and medium businesses,
+                    home offices, and individuals can use the cloud for multimedia storage, data repositories, data
+                    backup and recovery, and disaster recovery.
+                </p>
+                <p>
+                    Unitellas Storage as a service (STaaS) is a subscription service model where a storage provider supplies
+                    access to storage and compute resources both on premises and/or over the cloud. STaaS saves you
+                    money through operating expenditure (OPEX) agility—you only pay for the storage you need, when
+                    you need it. In this article, we’ll dive into what STaaS is, how it works, and what its benefits
+                    are.
+                </p>
+            </div>
+            <div class="col-lg-5 pb-5" style="min-height: 400px;">
+                <div class="position-relative bg-dark-radial h-100 ms-5">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/STaaS-1.jpg"
+                        style="object-fit: cover; border-radius: 12px;">
+                </div>
+            </div>
+            <div class="col-lg-5 pb-5" style="min-height: 400px;">
+                <div class="position-relative bg-dark-radial h-100 ms-5">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/STaaS-2.jpg"
+                        style="object-fit: cover; border-radius: 12px;">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <h5 class="display-7 mb-4">Why use STaaS?</h5>
+                <p>Here is an important detail about how storage as a service:</p>
+                <p>Because storage is one of the costliest data center operations, with rising IT staff time
+                    required to manage the market’s ever-increasing data volume, it makes sense to subscribe to
+                    StaaS. With StaaS, organizations can centralize operations and improve cost management. With
+                    a flexible capacity that dynamically changes on demand, workloads are better managed without
+                    disruption or compromise. And because StaaS offers utility-like consumption pricing, organizations
+                    can allocate budgets more accurately.
+                </p>
+                <h5>
+                    What are the benefits of Unitellas Storage as a Service?
+                </h5>
+                <ul>
+                    <li><strong>Avoid over-provisioning:</strong> The provider administers monitoring, load balancing,
+                        and planning capacity, so resources can be right-sized on an ongoing basis.</li>
+                    <li><strong>Reduce infrastructure costs:</strong>Storage vendors provide all infrastructure,
+                        including hardware arrays, so users no longer need to purchase any storage resources ahead of
+                        time, making storage an operational expense instead of a capital-intensive upfront cost.</li>
+                    <li><strong>Scale capacity and workload: </strong>Subscribers of StaaS gain a level of storage
+                        responsiveness that scales automatically, dynamically adjusting to changing application, user,
+                        and performance demands continuously.</li>
+                    <li><strong>Support digital transformation:</strong>By offloading storage management, staff can
+                        concentrate on business objectives of greater value to the business, powering an increased pace
+                        of innovation.</li>
+                    <li><strong>Centralize:</strong>With StaaS, storage is pooled and can be accessed through one
+                        unified interface, which reduces data sprawl and helps consolidate infrastructure overall.</li>
+
+                </ul>
+            </div>
+            <div class="col-lg-7">
+                <h5 class="display-7 mb-4">Issues to consider with Storage as a Service</h5>
+                <p>Handing off storage management does come with some potential drawbacks that IT managers should
+                    consider. These include:
+                </p>
+                <ul>
+                    <li><strong>Integration issues:</strong> Organizations often have significant investments sunk into
+                        a fleet of storage hardware,
+                        which may or may not be compatible with a vendor’s offerings. And while selling off the legacy
+                        hardware is possible,
+                        getting the full value out of the deal can be difficult.</li>
+                    <li><strong>Limited support:</strong>Response times and the technical expertise of post-sales
+                        support staff can vary greatly between
+                        vendors. In addition, getting extended support and maintenance after the original agreements
+                        expire can lead to steep
+                        increases in costs long-term.</li>
+                    <li><strong>Incomplete coverage: </strong>Some providers are limited in what storage protocols and
+                        deployment options they offer, or even provide limited integration with leading public cloud
+                        platforms. These may not go all the way to support your heterogeneous and hybrid infrastructure.
+                    </li>
+                    <li><strong>Availability: </strong>Not all vendors provide a guarantee for performance or effective
+                        capacity. Subscribers should negotiate if there are critical service-level agreement (SLA)
+                        requirements.</li>
+                </ul>
+            </div>
+            <div class="col-lg-5 pb-5" style="min-height: 400px;">
+                <div class="position-relative bg-dark-radial h-100 ms-5">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/STaaS-3.jpg"
+                        style="object-fit: cover; border-radius: 12px;">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <h5 class="display-7 mb-4">Benefits of Unitellas storage as a service</h5>
+                <p>One of the key benefits of STaaS is that it can help businesses save on upfront costs associated with
+                    purchasing and maintaining their own storage infrastructure. In addition, STaaS providers typically
+                    offer service level agreements (SLAs) that guarantee certain levels of uptime and performance. This
+                    can give businesses peace of mind knowing that they have reliable access to their data.
+                </p>
+                <p>To summarize, the primary benefits of Unitellas STaaS includes:</p>
+                <ul>
+                    <li>An OpEx subscription model that lets you optimize your storage costs</li>
+                    <li>A simplified storage management environment</li>
+                    <li>The always-on reliability of major cloud service providers</li>
+                    <li>The ability to quickly scale and provision storage resources to your apps as demand grows</li>
+                </ul>
+            </div>
+        </div>
+        <p style="font-size: larger; color: rgb(49, 45, 45);"><strong>If you would like to try out our storage service,
+            please fill this form <a href="storageform.html">here.</a></strong></p>
+        </p>
+    </div>
+
+    <!-- STaaS ends -->
+
+    <!-- Footer Start -->
+    <div class="footer container-fluid position-relative bg-dark bg-light-radial text-white-50 py-6 px-5">
+        <div class="row g-5">
+            <div class="col-lg-6 pe-lg-5">
+                <a href="index.html" class="navbar-brand">
+                    <!-- <h1 class="m-0 display-4 text-uppercase text-white"><i class="bi bi-building text-primary me-2"></i>Unitellas</h1> -->
+                    <div class="logo">
+                        <a href="index.html"><img src="img/unitellas.png" alt="Unitellas logo" width="220px"
+                                height="80px"></a>
+                    </div>
+                </a>
+                <p>At Unitellas International Limited, we empower African Telco's and Cloud Service
+                    Providers by providing on-premise compute, network and storage as a service
+                    while supporting SME's and large Enterprises to eliminate infrastructure &
+                    financial risks with our various service models.</p>
+                <p><i class="fa fa-map-marker-alt me-2"></i>HQ: First Floor, The Landmark, KM24
+                    Lekki-Epe Expressway, VGC, Lagos, Nigeria</p>
+                <p><i class="fa fa-phone-alt me-2"></i><span><a href="tel: +2348025050468">+234 802 505 0468</a></span></p>
+                <p><i class="fa fa-envelope me-2"></i>info@unitellas.com.ng</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://twitter.com/unitellasil/"><i class="fab fa-twitter" target="_blank"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://facebook.com/unitellas/"><i class="fab fa-facebook-f" target="_blank"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://www.linkedin.com/company/unitellas-international/mycompany/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://www.youtube.com/channel/UCf7u80bSoW4Xq_tY-NUn1Nw?" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://api.whatsapp.com/send/?phone=2348025050468&text&app_absent=0" target="_blank"><i
+                            class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 ps-lg-5">
+                <div class="row g-5">
+                    <div class="col-sm-6">
+                        <h4 class="text-white text-uppercase mb-4">Quick Links</h4>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white-50 mb-2" href="index.html"><i
+                                    class="fa fa-angle-right me-2"></i>Home</a>
+                            <a class="text-white-50 mb-2" href="index.html#about"><i
+                                    class="fa fa-angle-right me-2"></i>About Us</a>
+                            <a class="text-white-50 mb-2" href="index.html#services"><i
+                                    class="fa fa-angle-right me-2"></i>Our Services</a>
+                            <a class="text-white-50 mb-2" href="index.html#team"><i
+                                    class="fa fa-angle-right me-2"></i>Meet The Team</a>
+                            <a class="text-white-50 mb-2" href="contact.html"><i
+                                    class="fa fa-angle-right me-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid bg-dark bg-light-radial text-white border-top px-0">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="py-4 px-5 text-center text-md-start">
+                <p class="mb-0">Copyright &copy; <a class="text-primary" href="https://unitellas.com.ng/">2023
+                        Unitellas International Limited.</a> All
+                    Rights Reserved.</p>
+            </div>
+            <div class="py-4 px-5 bg-primary footer-shape position-relative text-center text-md-end">
+                <p class="mb-0">Designed by <a class="text-dark" href="https://unitellas.com.ng">Unitellas
+                        International Limited.</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Network-as-a-Service : Unitellas International Limited | Cloud Services</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="site description"
+        content="At Unitellas we empower african teleco's and cloud service providers by providing on-premise compute, network and storage as a service while supporting SME's and large Enterprises to eliminate infrastructure & financial risks with our various service models.">
+    <meta name="keywords"
+        content="cloud, Unitellas, Unitellas International Limited, Cloud services, compute, networking, storage as a service.">
+
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/4a5b559cd3.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link href="img/unitellasicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid px-5 d-none d-lg-block">
+        <div class="row gx-5">
+            <div class="col-lg-4 text-center py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Our Office</h6>
+                        <span>HQ: First Floor, The Landmark, KM24 Lekki-Epe Expressway, VGC, Lagos, Nigeria</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center border-start border-end py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Email Us</h6>
+                        <a href=mailto:"info@unitellas.com.ng">
+                            <span>info@unitellas.com.ng</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Call Us</h6>
+                        <span><a href="tel: +2348025050468">+234 802 505 0468</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Topbar End -->
+
+
+   <!-- Navbar Start -->
+   <div class="container-fluid sticky-top bg-light shadow-sm px-2 pe-lg-0"
+   style="background-color: rgb(170, 170, 170);">
+   <nav class="navbar navbar-expand-lg bg-light navbar-dark py-3 py-lg-0"
+       style="background-color: rgb(170, 170, 170);">
+       <a href="index.html" class="navbar-brand">
+           <div class="logo">
+               <a href="index.html"><img src="img/unitellas.png" alt="Unitellas logo" width="240px"
+                       height="100px"></a>
+           </div>
+       </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="index.html#services" class="nav-item nav-link">Services</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">RESOURCES</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="index.html#clients" class="dropdown-item">Our Clients</a>
+                            <a href="index.html#partners" class="dropdown-item">Our Partners</a>
+                            <a href="index.html#team" class="dropdown-item">The Team</a>
+                            <a href="faq.html" class="dropdown-item">FAQs</a>
+                            <a href="blog.html" class="dropdown-item">Our Blog</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a class="nav-item nav-link bg-primary text-white px-5 ms-3 d-lg-block" style="cursor: pointer;" onclick="openPopup()">Get A Quote<i
+                            class="bi bi-arrow-right"></i>
+                    </a>
+
+                    <div id="overlay">
+                        <div class="popup" id="popup">
+
+                            <div class="popup-header">
+                                <h5 class="title">What service would you like a quote for:</h5>
+                                <h5 class="close" onclick="closePopup()">&times;</h5>
+                            </div>
+
+                            <a href="computeform.html"><button>Compute Service</button></a><br>
+                            <a  href="storageform.html"><button>Storage Service</button></a><br>
+                            <a href="backupform.html"><button>Backup Service</button></a><br>
+                            <a href="drform.html"><button>Disaster Recovery Service</button></a><br>
+                        <div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header">
+        <h1 class="display-3 text-white mb-3">Network as a Service</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a href="">Home</a></h6>
+            <h6 class="text-white m-0 px-3">/</h6>
+            <h6 class="text-uppercase text-white m-0">NaaS</h6>
+        </div>
+    </div>
+    <!-- Page Header Start -->
+
+    <!-- NaaS  start -->
+
+    <div class="container-fluid py-6 px-5">
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <h4 class="display-7 mb-4">What Is Unitellas Network as a Service (NaaS)?</h4>
+                <p>Unitellas NaaS is a cloud model that enables users to easily operate the network and achieve the outcomes
+                    they expect from it without owning, building, or maintaining their own infrastructure.
+                </p>
+                <p>
+                    Unitellas Network-as-a-service (NaaS) is a cloud service model in which customers rent networking
+                    services from cloud providers. NaaS allows customers to operate their own networks without
+                    maintaining their own networking infrastructure. Like other cloud services, NaaS vendors
+                    run networking functions using software, essentially allowing companies to set up their own
+                    networks entirely without hardware. All they need is Internet connectivity.
+                </p>
+                <div class="row gx-5 py-2">
+                    <p> Unitellas NaaS can replace hardware-centric VPNs, load balancers, firewall appliances, and Multiprotocol
+                        Label Switching (MPLS) connections. Users can scale up and down as demand changes, rapidly
+                        deploy services, and eliminate hardware costs.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-5 pb-5" style="min-height: 400px;">
+                <div class="position-relative bg-dark-radial h-100 ms-5">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/NaaS-1.jpg"
+                        style="object-fit: cover; border-radius: 12px;">
+                </div>
+            </div>
+            <div class="col-lg-5 pb-5" style="min-height: 400px;">
+                <div class="position-relative bg-dark-radial h-100 ms-5">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/NaaS-2.jpg"
+                        style="object-fit: cover; border-radius: 12px;">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <h5 class="display-7 mb-4">What's driving the trend toward NaaS?</h5>
+                <p>Unitellas Network as a service (NaaS) is an emerging model for organizations to consume network
+                    infrastructure through flexible operating expense (OpEx) subscriptions, inclusive of
+                    hardware, software, management tools, licenses, and lifecycle services.
+                </p>
+                <p> The traditional network model requires capital expenses (CapEx) for physical networks with
+                    switches, routers, and licensing. The do-it-yourself IT model requires time for planning
+                    and deployment as well as expertise to install and configure infrastructure and to ensure
+                    security access policies are in place. This model involves the following:
+                </p>
+                <ul>
+                    <li>Diligent monitoring for updates and security patches is essential due to rapid changes in
+                        technology and security threats.</li>
+                    <li>Provisioning a new service is a manual process that requires a technician to deploy and
+                        configure equipment at various locations.</li>
+                    <li>Service provisioning and issue resolution have historically been lengthy processes.</li>
+                </ul>
+                <p>
+                    As networks have grown in complexity—with more mobile users connecting from everywhere and
+                    with the expansion to cloud—IT teams have been challenged to keep pace.
+                </p>
+            </div>
+            <div class="col-lg-7">
+                <h5 class="display-7 mb-4">Network agility with NaaS</h5>
+                <p>Unitellas NaaS provides the flexibility to pay for services based on usage and to scale as business needs
+                    change. It also provides the ability to monitor and manage networking services and track usage
+                    and billing. Services can be ordered, deployed, and co-managed on demand.
+                </p>
+                <p>Unitellas NaaS services can range from managed software-defined WAN (SD-WAN) and network
+                    access including wireless to security, unified communications services, and more—either
+                    in a public cloud or on virtualized customer premise equipment (vCPE). With the pace of
+                    innovation, most enterprises are finding they can no longer afford the time it takes to
+                    build and maintain their own network infrastructure.
+                </p>
+            </div>
+            <div class="col-lg-5 pb-5" style="min-height: 400px;">
+                <div class="position-relative bg-dark-radial h-100 ms-5">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/NaaS-3.jpg"
+                        style="object-fit: cover; border-radius: 12px;">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <h5 class="display-7 mb-4">What are the advantages of Unitellas NaaS?</h5>
+                <p><strong>Scalability: </strong> Cloud services like NaaS are naturally more scalable than traditional,
+                    hardware-based services. Enterprise NaaS customers can simply purchase more capacity
+                    from a vendor instead of purchasing, plugging in, and turning on more hardware.
+                </p>
+                <p><strong>Bundled with security: </strong>Unitellas NaaS makes it possible for a single provider to offer both
+                    networking services and security services like firewalls. This results in tighter integration
+                    between the network and network security.
+                </p>
+                <p><strong>Access from anywhere: </strong>Depending on how a cloud-based network is configured, users
+                    may be able to access it from anywhere — and on any device — without using a VPN, although this
+                    introduces the need for strong access control. Ideally, all a user needs is an Internet connection and login
+                    credentials.
+                </p>
+                <p><strong>No maintenance: </strong>The cloud provider maintains the network, managing software
+                    and hardware upgrades.
+                </p>
+                <p><strong>Flexibility: </strong>Cloud services offer more flexibility and greater customization.
+                    Changes are made to the network via software, not hardware. IT teams are often able to reconfigure
+                    their corporate networks on demand.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- NaaS ends -->
+
+    <!-- Footer Start -->
+    <div class="footer container-fluid position-relative bg-dark bg-light-radial text-white-50 py-6 px-5">
+        <div class="row g-5">
+            <div class="col-lg-6 pe-lg-5">
+                <a href="index.html" class="navbar-brand">
+                    <!-- <h1 class="m-0 display-4 text-uppercase text-white"><i class="bi bi-building text-primary me-2"></i>Unitellas</h1> -->
+                    <div class="logo">
+                        <a href="index.html"><img src="img/unitellas.png" alt="Unitellas logo" width="220px"
+                                height="80px"></a>
+                    </div>
+                </a>
+                <p>At Unitellas International Limited, we empower African Telco's and Cloud Service
+                    Providers by providing on-premise compute, network and storage as a service
+                    while supporting SME's and large Enterprises to eliminate infrastructure &
+                    financial risks with our various service models.</p>
+                <p><i class="fa fa-map-marker-alt me-2"></i>HQ: First Floor, The Landmark, KM24
+                    Lekki-Epe Expressway, VGC, Lagos, Nigeria</p>
+                <p><i class="fa fa-phone-alt me-2"></i><span><a href="tel: +2348025050468">+234 802 505 0468</a></span></p>
+                <p><i class="fa fa-envelope me-2"></i>info@unitellas.com.ng</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://twitter.com/unitellasil/"><i class="fab fa-twitter" target="_blank"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://facebook.com/unitellas/"><i class="fab fa-facebook-f" target="_blank"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://www.linkedin.com/company/unitellas-international/mycompany/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://www.youtube.com/channel/UCf7u80bSoW4Xq_tY-NUn1Nw?" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://api.whatsapp.com/send/?phone=2348025050468&text&app_absent=0" target="_blank"><i
+                            class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 ps-lg-5">
+                <div class="row g-5">
+                    <div class="col-sm-6">
+                        <h4 class="text-white text-uppercase mb-4">Quick Links</h4>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white-50 mb-2" href="index.html"><i
+                                    class="fa fa-angle-right me-2"></i>Home</a>
+                            <a class="text-white-50 mb-2" href="index.html#about"><i
+                                    class="fa fa-angle-right me-2"></i>About Us</a>
+                            <a class="text-white-50 mb-2" href="index.html#services"><i
+                                    class="fa fa-angle-right me-2"></i>Our Services</a>
+                            <a class="text-white-50 mb-2" href="about.html#team"><i
+                                    class="fa fa-angle-right me-2"></i>Meet The Team</a>
+                            <a class="text-white-50" href="contact.html"><i class="fa fa-angle-right me-2"></i>Contact
+                                Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid bg-dark bg-light-radial text-white border-top px-0">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="py-4 px-5 text-center text-md-start">
+                <p class="mb-0">Copyright &copy; <a class="text-primary" href="https://unitellas.com.ng/">2023
+                        Unitellas International Limited.</a> All
+                    Rights Reserved.</p>
+            </div>
+            <div class="py-4 px-5 bg-primary footer-shape position-relative text-center text-md-end">
+                <p class="mb-0">Designed by <a class="text-dark" href="https://unitellas.com.ng">Unitellas
+                        International Limited.</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+
+</html>

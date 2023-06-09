@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About: Unitellas International Limited | Cloud Services | Compute, Network & Storage</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="site description"
+        content="At Unitellas we empower african teleco's and cloud service providers by providing on-premise compute, network and storage as a service while supporting SME's and large Enterprises to eliminate infrastructure & financial risks with our various service models.">
+    <meta name="keywords"
+        content="cloud, Unitellas, Unitellas International Limited, Cloud services, compute, networking, storage as a service.">
+
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/4a5b559cd3.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link href="img/unitellasicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid px-5 d-none d-lg-block">
+        <div class="row gx-5">
+            <div class="col-lg-4 text-center py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Our Office</h6>
+                        <span>HQ: First Floor, The Landmark, KM24 Lekki-Epe Expressway, VGC, Lagos, Nigeria</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center border-start border-end py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Email Us</h6>
+                        <a href=mailto:"info@unitellas.com.ng">
+                            <span>info@unitellas.com.ng</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center py-3">
+                <div class="d-inline-flex align-items-center">
+                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
+                    <div class="text-start">
+                        <h6 class="text-uppercase fw-bold">Call Us</h6>
+                        <span><a href="tel: +2348025050468">+234 802 505 0468</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-light shadow-sm px-2 pe-lg-0"
+        style="background-color: rgb(170, 170, 170);">
+        <nav class="navbar navbar-expand-lg bg-light navbar-dark py-3 py-lg-0"
+            style="background-color: rgb(170, 170, 170);">
+            <a href="index.html" class="navbar-brand">
+                <div class="logo">
+                    <a href="index.html"><img src="img/unitellas.png" alt="Unitellas logo" width="240px"
+                            height="100px"></a>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link active">About</a>
+                    <a href="index.html#services" class="nav-item nav-link">Services</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">RESOURCES</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="index.html#clients" class="dropdown-item">Our Clients</a>
+                            <a href="index.html#partners" class="dropdown-item">Our Partners</a>
+                            <a href="about.html#team" class="dropdown-item">The Team</a>
+                            <a href="faq.html" class="dropdown-item">FAQs</a>
+                            <a href="blog.html" class="dropdown-item">Our Blog</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a class="nav-item nav-link bg-primary text-white px-5 ms-3 d-lg-block" style="cursor: pointer;"
+                        onclick="openPopup()">Get A Quote<i class="bi bi-arrow-right"></i>
+                    </a>
+
+                    <div id="overlay">
+                        <div class="popup" id="popup">
+
+                            <div class="popup-header">
+                                <h5 class="title">What service would you like a quote for:</h5>
+                                <h5 class="close" onclick="closePopup()">&times;</h5>
+                            </div>
+
+                            <a href="computeform.html"><button>Compute Service</button></a><br>
+                            <a href="storageform.html"><button>Storage Service</button></a><br>
+                            <a href="backupform.html"><button>Backup Service</button></a><br>
+                            <a href="drform.html"><button>Disaster Recovery Service</button></a><br>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header">
+        <h1 class="display-3 text-uppercase text-white mb-3">About Us</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a href="">Home</a></h6>
+            <h6 class="text-white m-0 px-3">/</h6>
+            <h6 class="text-uppercase text-white m-0">About Us</h6>
+        </div>
+    </div>
+    <!-- Page Header Start -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-6 px-5" id="about">
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <h1 class="display-5 text-uppercase mb-4 leader" style="font-family: 'Lora', serif;"></h1>
+                <h4 class="text-uppercase mb-3 text-body">GET FULLY-MANAGED, PAY-FOR-USE CLOUD SERVICES ON-PREMISES,
+                    HYBRID, MULTI-CLOUD, OR AT THE EDGE.</h4>
+                <p>Unitellas International Limited is a leading IT company registered in Nigeria that deals with 
+                    cloud services. We are the official distributor for Zadara Cloud in Africa, delivering 
+                    edge cloud infrastructure as a service to telecommunications operators and cloud service 
+                    providers.<br>
+                </p>
+
+                <p>
+                    We empower african teleco's and cloud service providers by providing access to
+                    on-demand, enterprise-grade compute, networking and storage as a service (IaaS), designed
+                    to lower your costs, future-proof your infrastructure, and handle any workload. 
+                </p>
+
+                <p>
+                    We provide – Storage, Compute, and Networking services, with a Zero CapEx.
+                </p>
+
+                <div class="row gx-5 py-2">
+                    <div class="col-sm-6 mb-2">
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Pay-As-You-Go pricing</p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Zero egress fees</p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Fully managed 24/7/365</p>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>VMs and storage centers
+                            worldwide</p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>On-premise, hybrid or cloud
+                        </p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>AWS Compatible APIs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5 pb-5" style="min-height: 400px;">
+                <div class="position-relative bg-dark-radial h-100 ms-5">
+                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/about.jpg"
+                        style="object-fit: cover; border-radius: 15px;">
+                </div><br><br>
+
+                <p
+                    style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding-top: 15px;">
+                    The Unitellas team was
+                    highly honored to be the winner of the South West zone <strong>“Digital Economy
+                        Promotion Award”</strong> presented by the Honorable Minister of Communication and Digital
+                    Economy Prof. Isa
+                    Ali Pantami.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- About End -->
+
+    <div class="container-fluid py-6 px-5">
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <div class="circle animation item1">
+                    <h2>OUR VISION</h2>
+                    We aim to be a technology leader in Africa,
+                    touching lives in the most important ways by
+                    influencing the way we transact business, are
+                    entertained and educated through digital solutions.
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="circle animation_reverse item1">
+                    <h2>OUR MISSION</h2>
+                    We aim to empower organizations move from a huge
+                    CAPEX to fully optimized OPEX based operations
+                    by transitioning to - as a service business
+                    model; by providing fully featured, fully
+                    elastic, full stack cloud infrastructure and IT
+                    solutions as a service to business organizations
+                    across Africa.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Unitellas Starts-->
+    <section class="how-it-works section-padding" id="why" data-scroll-index="2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h1 class="animation how-it-works-item item1 display-5 text-uppercase mb-4"
+                            style="text-align: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                            Why&nbsp;<span class="text-primary">Unitellas</span>&nbsp;?</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item2 line-right">
+                        <div class="step">1</div>
+                        <h3 style="color: #1379B4;"><strong>EMPOWER</strong></h3>
+                        <p>We empower our clients to serve their customers better by creating meaningful solutions
+                            to drive excellence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item3 line-right">
+                        <div class="step">2</div>
+                        <h3 style="color:#1379B4;"><strong>EXPAND</strong></h3>
+                        <p>We aid our clients in offering conveninece to their customers by leveraging new and
+                            emerging technologies.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item4 line-right">
+                        <div class="step">3</div>
+                        <h3 style="color: #1379B4;"><strong>ATTRACT</strong></h3>
+                        <p>We offer our clients solutions which distinguishes them in their industry and enables
+                            them to provide attractive and uninterrupted services.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item5">
+                        <div class="step">4</div>
+                        <h3 style="color:#1379B4;"><strong>DOMINATE</strong></h3>
+                        <p>We aim to transform our clients' businesses by aiding them with the required technologies
+                            to dominate their industries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Unitellas End-->
+
+    <!-- partners Starts-->
+    <section class="how-it-works section-padding" id="partners" data-scroll-index="2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h1 class="animation how-it-works-item item1 display-5 text-uppercase mb-4"
+                            style="text-align: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                            OUR&nbsp;<span class="text-primary">PARTNERS</span>&nbsp;</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item2 line-right">
+                        <a href="https://www.africadatacentres.com/" target="_blank" rel="noopener noreferrer"><img
+                                src="img/partner adc.jpg" alt="African Data Centres"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item3 line-right">
+                        <a href="https://www.zadara.com/" target="_blank" rel="noopener noreferrer"><img
+                                src="img/partner zadara.png" alt="Zadara" style="width: 210px; height: 70px;"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item4 line-right">
+                        <a href="https://www.inq.inc/" target="_blank" rel="noopener noreferrer"><img
+                                src="img/partner inq.png" alt="Inq" style="width: 200px; height: 80px;"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item5 line-right">
+                        <a href="https://www.asigra.com/" target="_blank" rel="noopener noreferrer"><img
+                                src="img/partner asigra.png" href="" alt="Asigra"
+                                style="width: 240px; height: 80px;"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item2 line-right">
+                        <a href="https://nitda.gov.ng/" target="_blank" rel="noopener noreferrer"><img
+                                src="img/partner nitda.png" alt="National Information Technology Development Agency"
+                                style="width: 200px; height: 80px;"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item3 line-right">
+                        <a href="https://iisysgroup.com/" target="_blank" rel="noopener noreferrer"><img
+                                src="img/partner itex.png" alt="ITEX" style="width: 200px; height: 80px;"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item4 line-right">
+                        <a href="https://tretennetworks.com/" target="_blank" rel="noopener noreferrer"><img
+                                src="img/partner treten.png" alt="Treten Networks"
+                                style="width: 200px; height: 80px;"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="animation how-it-works-item item5 line-right">
+                        <a href="https://www.cyberspace.net.ng/" target="_blank" rel="noopener noreferrer"><img
+                                src="img/partner cyberspace.png" style="width: 200px; height: 150px;"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="animation how-it-works-item item3 line-right">
+                    <a href="https://cwg-plc.com/" target="_blank" rel="noopener noreferrer"><img
+                            src="img/partner cwg.png" style="width: 210px; height: 100px;"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <!-- partners End-->
+
+    <!-- Team Start -->
+    <div class="container-fluid py-6 px-5" id="team">
+        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+            <h1 class="display-5 text-uppercase mb-4">We Are <span class="text-primary">Professional & Expert</span>
+                Workers</h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="row g-0">
+                    <div class="col-10" style="min-height: 300px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100" src="img/team-1.jpeg"
+                                style="object-fit: cover; border-radius: 60%;">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="h-50 d-flex flex-column align-items-center justify-content-between bg-light">
+                            <a class="btn" href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn" href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn" href="https://www.linkedin.com/in/smith-osemeke-66282289" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="bg-light p-4">
+                            <h4 class="text-uppercase">Smith Osemeke</h4>
+                            <span>Director/CEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="row g-0">
+                    <div class="col-10" style="min-height: 300px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100" src="img/team-2.jpeg"
+                                style="object-fit: cover; border-radius: 60%;">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="h-50 d-flex flex-column align-items-center justify-content-between bg-light">
+                            <a class="btn" href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn" href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn" href="https://www.linkedin.com/in/blessing-omo-94873027" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="bg-light p-4">
+                            <h4 class="text-uppercase">Blessing Omo</h4>
+                            <span>Director of Operations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="row g-0">
+                    <div class="col-10" style="min-height: 300px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100" src="img/team-3.jpg"
+                                style="object-fit: cover; border-radius: 60%;">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="h-50 d-flex flex-column align-items-center justify-content-between bg-light">
+                            <a class="btn" href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn" href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn" href="https://www.linkedin.com/in/dafe-oroghi-91a46926" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="bg-light p-4">
+                            <h4 class="text-uppercase">Dafe Oroghi</h4>
+                            <span>Chief Technology Officer, CTO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="row g-0">
+                    <div class="col-10" style="min-height: 300px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100" src="img/team-4.jpg"
+                                style="object-fit: cover; border-radius: 60%;">
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="h-50 d-flex flex-column align-items-center justify-content-between bg-light">
+                            <a class="btn" href="https://twitter.com/ooh_learninghub" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                            <a class="btn" href="https://facebook.com/hilkiahkenz" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn" href="https://www.linkedin.com/in/oghenekenookula" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="bg-light p-4">
+                            <h4 class="text-uppercase">Keno Okula</h4>
+                            <span>Cloud Solutions Architect</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Awards Start -->
+    <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+        <h1 class="display-5 text-uppercase mb-4 animation item 1">OUR <span class="text-primary">AWARDS</span></h1>
+    </div>
+
+    <div class="row g-5 px-4">
+        <div class="col-lg-4 col-md-6 animation item 2">
+            <div class="d-flex flex-column align-items-center text-center">
+                <p><strong>Cloud Infrastructure Provider of the Year 2022 </strong> -
+                    award from Tech Innovation Award</p>
+                <img src="img/award1.png" style="border-radius: 10px;">
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 animation item 3">
+            <div class=" d-flex flex-column align-items-center text-center">
+                <p><strong>Digital Economy Promoter 2022</strong> - by Government Digital Promotion Awards 2022 (NITDA);
+                </p>
+                <img src="img/award2.png" style="border-radius: 10px;"><br>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 animation item 4">
+            <div class="d-flex flex-column align-items-center text-center">
+                <p><strong>Top 10 Cloud Solutions provider in Africa 2022</strong> - awarded by CIO Review</p>
+                <img src="img/award3.png" style="border-radius: 10px;">
+            </div>
+        </div>
+        <p
+            style="text-align: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: large;">
+            <strong>We don't do it for the awards, but we appreciate the recognition.</strong>
+        </p>
+    </div><br><br>
+    <!-- Awards End -->
+
+    <!-- Appointment Start -->
+    <div class="container-fluid bg-light py-6 px-5">
+        <div class="row gx-5">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="mb-4">
+                    <h1 class="display-5 text-uppercase mb-4">Request A <span class="text-primary">Call Back</span></h1>
+                </div>
+                <p class="mb-5">The team at Unitellas International Limited would be delighted to receive a call from
+                    you. We are always on the look out to empower our clients and partners with feasible solutions that
+                    would enable them get the most out of our cloud solutions. Feel free to submit a request for quote
+                    (RfQ) or request a call back from us at your earliest convenience.</p>
+                <a class="btn btn-primary py-3 px-5" href="https://www.zadara.com/pricing/">Get A Quote</a>
+            </div>
+            <div class="col-lg-8">
+                <div class="bg-white text-center p-5">
+                    <form action="https://formspree.io/f/xeqwobzb" method="POST">
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="name" class="form-control bg-light border-0"
+                                    placeholder="Your Name" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="email" name="email" class="form-control bg-light border-0"
+                                    placeholder="Your Email" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="date" id="date" data-target-input="nearest">
+                                    <input type="text" name="date"
+                                        class="form-control bg-light border-0 datetimepicker-input"
+                                        placeholder="Call Back Date" data-target="#date" data-toggle="datetimepicker"
+                                        style="height: 55px;">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="time" id="time" data-target-input="nearest">
+                                    <input type="text" name="time"
+                                        class="form-control bg-light border-0 datetimepicker-input"
+                                        placeholder="Call Back Time" data-target="#time" data-toggle="datetimepicker"
+                                        style="height: 55px;">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" class="form-control bg-light border-0" rows="5"
+                                    placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+    <!-- Footer Start -->
+    <div class="footer container-fluid position-relative bg-dark bg-light-radial text-white-50 py-6 px-5">
+        <div class="row g-5">
+            <div class="col-lg-6 pe-lg-5">
+                <a href="index.html" class="navbar-brand">
+                    <!-- <h1 class="m-0 display-4 text-uppercase text-white"><i class="bi bi-building text-primary me-2"></i>Unitellas</h1> -->
+                    <div class="logo">
+                        <a href="index.html"><img src="img/unitellas.png" alt="Unitellas logo" width="220px"
+                                height="80px"></a>
+                    </div>
+                </a>
+                <p>At Unitellas International Limited, we empower African Telco's and Cloud Service Providers by
+                    providing on-premise compute, network and storage as a service while supporting SME's and large
+                    Enterprises to eliminate infrastructure & financial risks with our various service models.</p>
+                <p><i class="fa fa-map-marker-alt me-2"></i>HQ: First Floor, The Landmark, KM24 Lekki-Epe Expressway,
+                    VGC, Lagos, Nigeria</p>
+                <p><i class="fa fa-phone-alt me-2"></i><span><a href="tel: +2348025050468">+234 802 505 0468</a></span>
+                </p>
+                <p><i class="fa fa-envelope me-2"></i>info@unitellas.com.ng</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://twitter.com/unitellasil/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://facebook.com/unitellas/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://www.linkedin.com/company/unitellas-international/mycompany/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://www.youtube.com/channel/UCf7u80bSoW4Xq_tY-NUn1Nw?" target="_blank"><i
+                            class="fab fa-youtube"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2"
+                        href="https://api.whatsapp.com/send/?phone=2348025050468&text&app_absent=0" target="_blank"><i
+                            class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 ps-lg-5">
+                <div class="row g-5">
+                    <div class="col-sm-6">
+                        <h4 class="text-white text-uppercase mb-4">Quick Links</h4>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white-50 mb-2" href="index.html"><i
+                                    class="fa fa-angle-right me-2"></i>Home</a>
+                            <a class="text-white-50 mb-2" href="index.html#about"><i
+                                    class="fa fa-angle-right me-2"></i>About Us</a>
+                            <a class="text-white-50 mb-2" href="index.html#services"><i
+                                    class="fa fa-angle-right me-2"></i>Our Services</a>
+                            <a class="text-white-50 mb-2" href="index.html#team"><i
+                                    class="fa fa-angle-right me-2"></i>Meet The Team</a>
+                            <a class="text-white-50 mb-2" href="faq.html"><i
+                                    class="fa fa-angle-right me-2"></i>Frequently Asked Questions</a>
+                            <a class="text-white-50" href="contact.html"><i class="fa fa-angle-right me-2"></i>Contact
+                                Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark bg-light-radial text-white border-top px-0">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="py-4 px-5 text-center text-md-start">
+                <p class="mb-0">Copyright &copy; <a class="text-primary" href="https://unitellas.com.ng/">2023 Unitellas
+                        International Limited.</a> All Rights Reserved.</p>
+            </div>
+            <div class="py-4 px-5 bg-primary footer-shape position-relative text-center text-md-end">
+                <p class="mb-0">Designed by <a class="text-dark" href="https://unitellas.com.ng">Unitellas International
+                        Limited</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+
+</html>
